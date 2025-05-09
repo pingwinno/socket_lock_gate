@@ -1,4 +1,4 @@
-package com.example.speaker_web_gate.config;
+package com.example.socketLockGate.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

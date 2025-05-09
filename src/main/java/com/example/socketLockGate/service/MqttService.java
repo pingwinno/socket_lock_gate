@@ -1,7 +1,7 @@
-package com.example.speaker_web_gate.service;
+package com.example.socketLockGate.service;
 
-import com.example.speaker_web_gate.event.LockEvent;
-import com.example.speaker_web_gate.gateway.MqttGateway;
+import com.example.socketLockGate.event.LockEvent;
+import com.example.socketLockGate.gateway.MqttGateway;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationEventPublisher;

@@ -1,10 +1,8 @@
-package com.example.speaker_web_gate;
+package com.example.socketLockGate;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class SpeakerWebGateApplicationTest {
+class SocketLockGateApplicationTest {
 
     @Test
     void test(){

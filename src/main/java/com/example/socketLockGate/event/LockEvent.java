@@ -1,4 +1,4 @@
-package com.example.speaker_web_gate.event;
+package com.example.socketLockGate.event;
 
 import lombok.Getter;
 import org.springframework.context.ApplicationEvent;

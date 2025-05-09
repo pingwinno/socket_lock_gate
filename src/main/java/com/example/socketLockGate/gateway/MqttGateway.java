@@ -1,4 +1,4 @@
-package com.example.speaker_web_gate.gateway;
+package com.example.socketLockGate.gateway;
 
 import org.springframework.integration.annotation.Gateway;
 import org.springframework.integration.annotation.MessagingGateway;
