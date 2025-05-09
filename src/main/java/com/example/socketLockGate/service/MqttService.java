@@ -20,7 +20,7 @@ public class MqttService {
     @EventListener(LockEvent.class)
     public void sentSpeakerParameterUpdate(LockEvent lockEvent) {
         log.info("Sending settings event to mqtt: {}", lockEvent.getState());
-        mqttGateway.sendMessage("/lock", 2, lockEvent.getState());
+        mqttGateway.sendMessage("lock", 2, lockEvent.getState());
     }
 
 }
